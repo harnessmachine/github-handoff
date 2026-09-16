@@ -1,0 +1,7 @@
+interface:
+  display_name: "GitHub Handoff"
+  short_description: "Перенос контекста сессии через GitHub Issue"
+  default_prompt: "Используй $github-handoff, чтобы сохранить текущую сессию в GitHub Issue и подготовить продолжение для нового чата."
+
+policy:
+  allow_implicit_invocation: true
